@@ -1,0 +1,4 @@
+name: "gp-test"
+output_dir: "."
+include: ["test.Rmd"]
+exclude: ["docs.txt", "*.csv"]
