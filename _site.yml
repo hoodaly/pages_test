@@ -2,3 +2,10 @@ name: "gp-test"
 output_dir: "."
 include: ["test.Rmd"]
 exclude: ["docs.txt", "*.csv"]
+navbar:
+  title: "My Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: test.html
